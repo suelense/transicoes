@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background-color: pink;
+}
+img {
+    width: 400px;
+}
+.cor_rosa {
+    color: darkmagenta;
+}
+.animation {
+    animation: fadeInFadeOut 2s linear infinite;
+}
+@keyframes fadeInFadeOut {
+    0% {scale: 1}
+    50% {scale: 1.1}
+    100% {scale: 1}
+}
